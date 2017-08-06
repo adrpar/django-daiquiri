@@ -1,0 +1,2 @@
+CREATE USER IF NOT EXISTS admin@'172.%.%.%' IDENTIFIED BY 'password';
+GRANT ALL PRIVILEGES ON  *.* to 'admin'@'172.%.%.%' WITH GRANT OPTION;
